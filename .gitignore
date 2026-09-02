@@ -28,6 +28,10 @@ cifar-10-batches-py/
 *.tmp
 *.log
 
-# Virtual environment
-venv/
-.venv/
+# Dataset
+classification/data/
+data/
+
+# Temporary Test Images
+test_image.png
+test_image_*.png
