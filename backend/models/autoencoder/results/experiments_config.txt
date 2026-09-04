@@ -1,0 +1,68 @@
+DeepVision AI - Denoising Autoencoder
+=====================================
+
+Dataset:
+CIFAR-10
+
+Image Size:
+32 x 32
+
+Input:
+Noisy RGB Image
+
+Target:
+Clean RGB Image
+
+Noise Type:
+Gaussian Noise
+
+Noise Factor:
+0.2
+
+Train Samples:
+45000
+
+Validation Samples:
+5000
+
+Test Samples:
+10000
+
+Model:
+Convolutional Denoising Autoencoder
+
+Encoder:
+Conv2D 3 -> 32
+ReLU
+MaxPool
+Conv2D 32 -> 64
+ReLU
+MaxPool
+Conv2D 64 -> 128
+ReLU
+
+Latent Representation:
+128 x 8 x 8
+
+Decoder:
+ConvTranspose 128 -> 64
+ReLU
+ConvTranspose 64 -> 32
+ReLU
+Conv2D 32 -> 3
+Sigmoid
+
+Loss:
+Mean Squared Error (MSE)
+
+Optimizer:
+Adam
+
+Learning Rate:
+0.001
+
+Batch Size:
+64
+
+Epochs:
+20

@@ -1,0 +1,10 @@
+{
+  "description": "This platform offers a unified interface for deep learning tasks, allowing users to classify images, detect objects, and generate images with advanced AI modules.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

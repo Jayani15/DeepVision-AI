@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# Large dataset
+cifar-10-batches-py/
+
+# Temporary files
+*.tmp
+*.log
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# CIFAR-10 dataset
+cifar-10-batches-py/
+
+# Python/Jupyter
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
