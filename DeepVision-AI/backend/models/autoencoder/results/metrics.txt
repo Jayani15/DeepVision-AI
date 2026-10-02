@@ -1,0 +1,14 @@
+DENOISING AUTOENCODER RESULTS
+============================
+
+MSE
+Noisy MSE: 0.033315
+Denoised MSE: 0.004302
+
+PSNR
+Noisy PSNR: 14.79 dB
+Denoised PSNR: 23.90 dB
+
+SSIM
+Noisy SSIM: 0.4300
+Denoised SSIM: 0.7998

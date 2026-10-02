@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# Large dataset
+cifar-10-batches-py/
+
+# Temporary files
+*.tmp
+*.log
+
+# Dataset
+classification/data/
+data/
+
+# Temporary Test Images
+test_image.png
+test_image_*.png

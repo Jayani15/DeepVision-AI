@@ -1,0 +1,7 @@
+NOISE LEVEL ROBUSTNESS EXPERIMENT
+=================================
+
+Noise Factor | Noisy MSE | Denoised MSE | Noisy PSNR | Denoised PSNR
+0.1 | 0.009303 | 0.003383 | 20.33 | 25.01
+0.2 | 0.033290 | 0.004296 | 14.79 | 23.91
+0.3 | 0.064205 | 0.007456 | 11.94 | 21.40
