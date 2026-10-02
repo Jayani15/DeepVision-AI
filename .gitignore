@@ -35,3 +35,16 @@ data/
 # Temporary Test Images
 test_image.png
 test_image_*.png
+
+# Face Recognition dataset and generated files
+backend/models/face_recognition/dataset/
+backend/models/face_recognition/gallery/gallery_embeddings.pt
+backend/models/face_recognition/results/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
