@@ -20,7 +20,7 @@ def main():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=0.70,
+        default=0.50,
         help="Cosine similarity threshold",
     )
 

@@ -21,7 +21,7 @@ class FaceRecognizer:
 
     def __init__(
         self,
-        threshold: float = 0.70,
+        threshold: float = 0.50,
         device: Optional[str] = None,
     ):
 

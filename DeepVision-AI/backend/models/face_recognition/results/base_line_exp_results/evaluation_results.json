@@ -1,7 +1,0 @@
-{
-    "threshold": 0.7,
-    "known_accuracy": 0.9167,
-    "unknown_rejection_rate": 1.0,
-    "known_samples": 24,
-    "unknown_samples": 9
-}
